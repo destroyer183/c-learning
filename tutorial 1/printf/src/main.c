@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 
     // in order to print out a number, you must use a format specifier. 
     // a foramt specifier tells the printf function that you want to print out a type of data that isn't plain text in quotes.
-    // %d would allow you to print out a number.
+    // %d would allow you to print out a number, specifically an int.
     printf("my favourite number is %d\n", 500);
 
     // %s would allow you to include more text, like when using variables.
@@ -23,6 +23,7 @@ int main(int argc, char const *argv[])
 
     int favNum = 90;
 
+    // %d would allow you to print out a number, specifically an int.
     printf("my other favourite number is %d\n", favNum);
 
 
